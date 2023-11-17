@@ -7,5 +7,6 @@ public class TreeException extends FamilyTree
 	public TreeException(String s) throws IOException
 	{
 		super();
+		throw new IOException("error");
 	}
 }
