@@ -180,7 +180,7 @@ public class FamilyTree
 	//
 	TreeNode getMostRecentCommonAncestor(String name1, String name2) throws TreeException
 	{
-		// Get nodes for input names.
+		/* Get nodes for input names.
 		TreeNode node1 = root.???		// node whose name is name1
 		if (node1 == null)
 			??? Throw a TreeException with a useful message
@@ -197,7 +197,7 @@ public class FamilyTree
 		for (TreeNode n1: ancestorsOf1)
 			if (ancestorsOf2.contains(n1))
 				return n1;
-		
+		*/
 		// No common ancestor.
 		return null;
 	}
