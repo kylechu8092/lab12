@@ -2,10 +2,10 @@ package trees;
 
 import java.io.IOException;
 
-public class TreeException extends Throwable
+public class TreeException extends Exception
 {
-	public TreeException(String s) throws IOException
+	public TreeException(String s) 
 	{
-		throw new IOException(s);
+		super(s);
 	}
 }
